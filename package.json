@@ -1,0 +1,34 @@
+{
+  "name": "bingo-ball",
+  "version": "1.0.0",
+  "description": "bingo ball application with express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonCasasnovas/Bingo-Ball.git"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "Brandon Casasnovas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonCasasnovas/Bingo-Ball/issues"
+  },
+  "homepage": "https://github.com/BrandonCasasnovas/Bingo-Ball#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
